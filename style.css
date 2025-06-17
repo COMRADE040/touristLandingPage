@@ -1,0 +1,195 @@
+*{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(#ffffff, #EBDCFF);
+}
+/* okk */
+#banner{
+    margin: 100px auto 120px auto;
+    width: 87.5%;
+    border-radius: 40px;
+    border: 2px solid #872bff10;
+    padding: 20px 30px;
+    background-color: white;
+    background-image: url(hero-bg.png);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* okk */
+.banner-content{
+    width: 50%;
+}
+/* okk */
+.banner-content *{
+    margin-bottom: 20px;
+}
+/* okk */
+.banner-content h1{
+    /* width: 50%; */
+    font-size: 70px;
+    font-weight: bold;
+}
+/* okk */
+.banner-content p{
+    font-weight: medium;
+    font-size: 18px;
+    color: #A8A8A8;
+}
+/* okk */
+.banner-content h1 span{
+    color: #f411cf;
+}
+/* okk */
+.btn{
+    background-color: #872bff;
+    border-radius: 30px;
+    padding: 16px 32px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+/* okk */
+.btn-white{
+    background-color: white;
+    border-radius: 30px;
+    padding: 16px 32px;
+    border: 2px solid #872bff;
+    cursor: pointer;
+}
+/* okk */
+.banner-image{
+    width: 600px;
+}
+
+
+
+/* okk */
+#service, #story, #country{
+    width: 87.5%;
+    margin: 0 auto 120px auto;
+}
+/* okk */
+.heading-content{
+    text-align: center;
+}
+/* okk */
+.heading-content h4{
+    color: #f411cf;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+/* okk */
+.heading-content h2{
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+/* okk */
+#service-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+/* okk */
+.service-card{
+    background-color: white;
+    border-radius: 30px;
+    padding: 100px 60px;
+    text-align: center;
+    width: 350px;
+    /* height: 350px; */
+}
+
+/* okk */
+.service-card img{
+    margin-bottom: 30px;
+}
+/* okk */
+.service-card h2{
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: semibold;
+}
+/* okk */
+.service-card p{
+    color: #A8A8A8;
+}
+
+
+/* okk */
+.story-card{
+    background-color: white;
+    padding: 40px;
+    border-radius: 24px;
+    display: flex;
+    gap: 20px;
+}
+
+/* okk */
+.story-content h2, 
+.story-content p, 
+.story-content img
+{
+    margin-bottom: 30px;
+}
+
+
+
+/* okk */
+#country-card-container{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+/* okk */
+#country-card-container h2{
+    background-color: white;
+    padding: 40px;
+    border-radius: 30px;
+}
+#country-card-container .review{
+    background-color: white;
+    padding: 40px;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#country-card-container .person-intro{
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 700px;
+    justify-content: space-between;
+}
+
+
+#footer{
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#footer p{
+    margin-left: 20px;
+}
+#footer #social{
+    margin-right: 30px;
+}
+#footer i{
+    color: #872bff;
+    font-size: 20px;
+    background-color: white;
+    margin-right: 20px;
+}
